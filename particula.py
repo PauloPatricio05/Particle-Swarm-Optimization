@@ -1,0 +1,1 @@
+# Define a classe Particle (posição, velocidade, pBest)

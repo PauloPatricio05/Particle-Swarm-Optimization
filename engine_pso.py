@@ -1,0 +1,1 @@
+# A lógica do algoritmo (loops, inércia e cooperação)
