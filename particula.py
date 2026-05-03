@@ -1,5 +1,3 @@
-import random
-
 # definição da classe particle (posição, velocidade, pbest)
 class particle:
     def __init__(self, posicao, velocidade, pBest):
