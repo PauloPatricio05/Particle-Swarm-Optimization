@@ -7,7 +7,7 @@ def executar_pso(funcao, inercia_tipo, coop_tipo, n_particulas, dim, max_iter, c
     melhor_posicao_global = None
     
     historico_fitness = []
-    historico_posicoes = []  # 🔥 CORRETO: criado aqui
+    historico_posicoes = []
 
     # inicializacao
     for _ in range(n_particulas):
