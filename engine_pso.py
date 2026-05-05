@@ -66,7 +66,6 @@ def executar_pso(funcao, inercia_tipo, coop_tipo, n_particulas, dim, max_iter, c
         # histórico
         historico_fitness.append(melhor_fitness_global)
 
-        # 🔥 ESSENCIAL PRA ANIMAÇÃO
         historico_posicoes.append([p.posicao[:] for p in enxame])
 
     return melhor_fitness_global, historico_fitness, historico_posicoes
